@@ -1,0 +1,14 @@
+parameter,value,description
+floor1_total_customers,10,Всего клиентов на 1 этаже
+floor1_min_to_progress,6,Минимум клиентов для перехода на 2 этаж
+floor1_patience,3,Терпение клиентов на 1 этаже
+floor2_total_groups,3,Всего групп на 2 этаже
+floor2_min_to_progress,2,Минимум групп для перехода на 3 этаж
+floor2_patience,4,Терпение групп на 2 этаже
+floor2_group_size,4,Размер группы на 2 этаже
+floor3_total_vip,6,Всего VIP на 3 этаже
+floor3_min_to_progress,3,Минимум VIP для концовки
+floor3_patience,2,Терпение VIP
+inventory_size,5,Размер инвентаря игрока
+upgrade_cost,5,Очков нужно для прокачки рецепта
+points_per_customer,1,Очков за правильно обслуженного клиента

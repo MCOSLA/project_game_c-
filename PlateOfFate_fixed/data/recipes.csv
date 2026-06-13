@@ -1,0 +1,15 @@
+id,name,ingredient1,ingredient2,ingredient3,ingredient4,floor_found
+0,Кофе,COFFEE_BEANS,SUGAR,,,0
+1,Сэндвич,BREAD,HAM,,,0
+2,Салат майонезный,LETTUCE,MAYO,TOMATO,,0
+3,Паста с томатами,DOUGH,TOMATO,HAM,CHEESE,0
+4,Гренки,BREAD,GARLIC,,,1
+5,Шоколадное пиво,BEER,CHOCOLATE,,,1
+6,Брускеты,BREAD,TOMATO,GARLIC,,1
+7,Луковый суп,ONION,CHEESE,BREAD,,1
+8,Пицца с ананасом,DOUGH,CHEESE,MEAT,,2
+9,Рыбный стейк,FISH,TOMATO,RICE,,2
+10,Торт Цезарь,DOUGH,BUTTER,SUGAR,,2
+11,Стейк с грушей,MEAT,WINE,,,3
+12,Лазанья,DOUGH,MEAT,TOMATO,CHEESE,3
+13,Селедка под шубой,FISH,ONION,BEETROOT,MAYO,3
