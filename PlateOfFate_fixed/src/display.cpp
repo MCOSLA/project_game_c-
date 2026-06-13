@@ -187,7 +187,7 @@ void ShowEnding(Ending ending) {
     std::cout << "«Сносный обед. На один раз. Можешь идти.»\n\n";
     std::cout << "Ты получил свободу. Но слова шефа\n";
     std::cout << "будут преследовать тебя долгие годы...\n\n";
-    std::cout << "★ ПОБЕДА — нейтральная концовка ★\n";
+    std::cout << " ПОБЕДА — нейтральная концовка \n";
   } else if (ending == ENDING_DECISION) {
     std::cout << "       КОНЦОВКА: «САМОСТОЯТЕЛЬНОЕ РЕШЕНИЕ»\n";
     PrintSeparator();
@@ -196,7 +196,7 @@ void ShowEnding(Ending ending) {
     std::cout << "Войдя в офис, ты не ставишь тарелку — ты бросаешь её.\n\n";
     std::cout << "Шеф молчит. Твои гениальные рецепты с тобой.\n";
     std::cout << "Ты открываешь свой ресторан.\n\n";
-    std::cout << "★ ПОБЕДА — лучшая концовка ★\n";
+    std::cout << " ПОБЕДА — лучшая концовка \n";
   } else if (ending == ENDING_ESCAPE) {
     std::cout << "           КОНЦОВКА: «ПОБЕГ»\n";
     PrintSeparator();
@@ -204,7 +204,7 @@ void ShowEnding(Ending ending) {
     std::cout << "Без зарплаты. Без паспорта. Но свободен.\n\n";
     std::cout << "Когда-нибудь ты вернёшься — уже как гость,\n";
     std::cout << "чтобы передать ключ следующему.\n\n";
-    std::cout << "★ ПОБЕДА — легкая концовка ★\n";
+    std::cout << " ПОБЕДА — легкая концовка \n";
   } else if (ending == ENDING_TRAPPED) {
     std::cout << "        КОНЦОВКА: «В СТЕНАХ РЕСТОРАНА»\n";
     PrintSeparator();
@@ -212,7 +212,7 @@ void ShowEnding(Ending ending) {
     std::cout << "Он берёт твоё заявление... и разрывает его.\n\n";
     std::cout << "«Ты никуда не уйдёшь.»\n\n";
     std::cout << "До конца своих дней ты будешь работать здесь.\n\n";
-    std::cout << "✗ ПОРАЖЕНИЕ ✗\n";
+    std::cout << " ПОРАЖЕНИЕ \n";
   }
   PrintSeparator();
   PressEnter();

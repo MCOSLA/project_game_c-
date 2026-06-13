@@ -134,7 +134,7 @@ static int HandleKitchen(GameState& state) {
         PressEnter();
         continue;
       }
-      std::cout << "\n✓ Приготовлено: «" << recipe.name << "»!\n";
+      std::cout << "\n Приготовлено: «" << recipe.name << "»!\n";
       PressEnter();
       return recipe.id;
     } catch (...) {
@@ -247,7 +247,7 @@ static bool HandleServeCustomer(GameState& state, Floor& floor,
         }
       }
       ClearScreen();
-      std::cout << "\n★ Клиент доволен! «" << recipe_name
+      std::cout << "\n Клиент доволен! «" << recipe_name
                 << "» — именно то, что нужно!\n";
       std::cout << "+1 очко прокачки (всего: " << state.player.upgrade_points
                 << ")\n\n";
@@ -259,7 +259,7 @@ static bool HandleServeCustomer(GameState& state, Floor& floor,
     } else {
       customer.patience--;
       ClearScreen();
-      std::cout << "\n✗ Неверно! Клиент недоволен.\n";
+      std::cout << "\n Неверно! Клиент недоволен.\n";
       std::cout << "Осталось терпения: ";
       for (int i = 0; i < customer.patience; ++i) std::cout << "♥ ";
       if (customer.patience == 0) std::cout << "(уходит)";

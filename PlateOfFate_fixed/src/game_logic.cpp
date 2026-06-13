@@ -30,14 +30,13 @@ Floor BuildFloor(FloorLevel level, const std::vector<Recipe>& all_recipes,
   floor.is_cleared = false;
   floor.storage_items = StorageForFloor(level);
 
+  int floor_num = static_cast<int>(level);
   for (const Recipe& recipe : all_recipes) {
-    if (recipe.floor_found == 0 ||
-        recipe.floor_found <= static_cast<int>(level)) {
+    if (recipe.floor_found == 0 || recipe.floor_found <= floor_num) {
       floor.available_recipes.push_back(recipe);
     }
   }
 
-  int floor_num = static_cast<int>(level);
   for (const Customer& customer : all_customers) {
     if (customer.floor == floor_num) {
       floor.customers.push_back(customer);
